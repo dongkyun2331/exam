@@ -133,6 +133,7 @@ function softwareDesign4() {
         console.log(
           "유스케이스(Use Case)의 구성 요소 간의 관계\n- 연관관계(Association): 유스케이스와 액터간의 상호작용이 있음을 표현한다.\n- 포함 관계(Include): 하나의 유스케이스가 다른 유스케이스의 실행을 전제로 할 때 형성되는 관계이다.\n- 확장 관계(Extend): 확장 기능 유스케이스와 확장 대상 유스케이스 사이에 형성 되는 관계이다.\n- 일반화 관계(Generalization): 유사한 유스케이스 또는 액터를 모아 추상화한 유스케이스 또는 액터와 연결시켜 그룹을 만들어 이해도를 높이기 위한 관계이다."
         );
+        softwareDesign5();
       }
       if (input === "4") {
         console.log("오답");
@@ -148,7 +149,47 @@ function softwareDesign4() {
 
 function softwareDesign5() {
   rl.question(
-    "5. 요구사항 분석에서 비기능적(Nonfunctional) 요구에 대한 설명으로 옳은 것은?\n 1: 시스템의 처리량(Throughput), 반응 시간 등의 성능 요구나 품질 요구는 비기능적 요구에 해당하지 않는다."
+    "5. 요구사항 분석에서 비기능적(Nonfunctional) 요구에 대한 설명으로 옳은 것은?\n 1: 시스템의 처리량(Throughput), 반응 시간 등의 성능 요구나 품질 요구는 비기능적 요구에 해당하지 않는다.\n 2: '차량 대여 시스템이 제공하는 모든 화면이 3초 이내에 사용자에게 보여야 한다'는 비기능적 요구이다.\n  3: 시스템 구축과 관련된 안전, 보안에 대한 요구사항들은 비기능적 요구에 해당하지 않는다.\n 4: '금융 시스템은 조회, 인출, 입금, 송금의 기능이 있어야 한다'는 비기능적 요구이다.\n",
+    (input) => {
+      if (input === "1") {
+        console.log("오답");
+      }
+      if (input === "2") {
+        console.log("정답");
+        softwareDesign6();
+      }
+      if (input === "3") {
+        console.log("오답");
+      }
+      if (input === "4") {
+        console.log("오답");
+      } else {
+        softwareDesign5();
+      }
+    }
+  );
+}
+
+function softwareDesign6() {
+  rl.question(
+    "6. 정보공학 방법론에서 데이터베이스 설계의 표현으로 사용하는 모델링 언어는?\n 1: Package Diagram\n 2: State Transition Diagram\n 3: Deployment Diagram\n 4: Entity-Relationship Diagram\n",
+    (input) => {
+      if (input === "1") {
+        console.log("오답");
+      }
+      if (input === "2") {
+        console.log("오답");
+        softwareDesign7();
+      }
+      if (input === "3") {
+        console.log("오답");
+      }
+      if (input === "4") {
+        console.log("정답");
+      } else {
+        softwareDesign6();
+      }
+    }
   );
 }
 
