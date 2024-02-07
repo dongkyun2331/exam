@@ -311,4 +311,211 @@ function softwareDesign11() {
   );
 }
 
+function softwareDesign12() {
+  rl.question(
+    "12. 속성과 관련된 연산(Operation)을 클래스 안에 묶어서 하나로 취급하는 것을 의미하는 객체지향 개념은?\n 1: Inheritance\n 2: Class\n 3: Encapsulation\n 4: Association\n",
+    (input) => {
+      if (input === "1") {
+        console.log(f);
+      }
+      if (input === "2") {
+        console.log(f);
+      }
+      if (input === "3") {
+        console.log(t);
+        softwareDesign13();
+      }
+      if (input === "4") {
+        console.log(f);
+      } else {
+        softwareDesign12();
+      }
+    }
+  );
+}
+
+function softwareDesign13() {
+  rl.question(
+    "13. 애자일(Agile) 프로세스 모델에 대한 설명으로 틀린 것은?\n 1: 변화에 대한 대응보다는 자세한 계획을 중심으로 소프트웨어를 개발한다.\n 2: 프로세스와 도구 중심이 아닌 개개인과의 상호소통을 통해 의견을 수렴한다.\n 3: 협상과 계약보다는 고객과의 협력을 중시한다.\n 4: 문서 중심이 아닌, 실행 가능한 소프트웨어를 중시한다.\n",
+    (input) => {
+      if (input === "1") {
+        console.log(t);
+        softwareDesign14();
+      }
+      if (input === "2") {
+        console.log(f);
+      }
+      if (input === "3") {
+        console.log(f);
+      }
+      if (input === "4") {
+        console.log(f);
+      } else {
+        softwareDesign13();
+      }
+    }
+  );
+}
+
+function softwareDesign14() {
+  rl.question(
+    "14. 명백한 역할을 가지고 독립적으로 존재할 수 있는 시스템의 부분으로 넓은 의미에서는 재사용되는 모든 단위라고 볼 수 있으며, 인터페이스를 통해서만 접근할 수 있는 것은?\n 1: Model\n 2: Sheet\n 3: Component\n 4: Cel\n",
+    (input) => {
+      if (input === "1") {
+        console.log(f);
+      }
+      if (input === "2") {
+        console.log(f);
+      }
+      if (input === "3") {
+        console.log(t);
+        softwareDesign15();
+      }
+      if (input === "4") {
+        console.log(f);
+      } else {
+        softwareDesign14();
+      }
+    }
+  );
+}
+
+function softwareDesign15() {
+  rl.question(
+    "15. GoF(Gang of Four) 디자인 패턴을 생성, 구조, 행동 패턴의 세 그룹으로 분류할 때, 구조 패턴이 아닌 것은?\n 1: Adapter 패턴\n 2: Bridge 패턴\n 3: Builder 패턴\n 4: Proxy 패턴\n",
+    (input) => {
+      if (input === "1") {
+        console.log(f);
+      }
+      if (input === "2") {
+        console.log(f);
+      }
+      if (input === "3") {
+        console.log(t);
+        softwareDesign16();
+      }
+      if (input === "4") {
+        console.log(f);
+      } else {
+        softwareDesign15();
+      }
+    }
+  );
+}
+
+function softwareDesign16() {
+  rl.question(
+    "16. UI와 관련된 기본 개념 중 하나로, 시스템의 상태와 사용자의 지시에 대한 효과를 보여주어 사용자가 명령에 대한 진행 상황과 표시된 내용을 해석할 수 있도록 도와주는 것은?\n 1: Feedback\n 2: Posture\n 3: Module\n 4: Hash\n",
+    (input) => {
+      if (input === "1") {
+        console.log(t);
+        softwareDesign17();
+      }
+      if (input === "2") {
+        console.log(f);
+      }
+      if (input === "3") {
+        console.log(f);
+      }
+      if (input === "4") {
+        console.log(f);
+      } else {
+        softwareDesign16();
+      }
+    }
+  );
+}
+
+function softwareDesign17() {
+  rl.question(
+    "17. UI의 종류로 멀티 터치(Multi-touch), 동작 인식(Gesture Recognition) 등 사용자의 자연스러운 움직임을 인식하여 서로 주고받는 정보를 제공하는 사용자 인터페이스를 의미 하는 것은?\n 1: GUI(Graphical User Interface)\n 2: OUI(Organic User Interface)\n 3: NUI(Natural User Interface)\n 4: CLI(Command Line Interface)\n",
+    (input) => {
+      if (input === "1") {
+        console.log(f);
+      }
+      if (input === "2") {
+        console.log(f);
+      }
+      if (input === "3") {
+        console.log(t);
+        softwareDesign18();
+      }
+      if (input === "4") {
+        console.log(f);
+      } else {
+        softwareDesign17();
+      }
+    }
+  );
+}
+
+function softwareDesign18() {
+  rl.question(
+    "18. 소프트웨어 모델링과 관련한 설명으로 틀린 것은?\n 1: 모델링 작업의 결과물은 다른 모델링 작업에 영향을 줄 수 없다.\n 2: 구조적 방법론에서는 DFD(Data Flow Diagram), DD(Data Dictionary) 등을 사용하여 요구 사항의 결과를 표현한다.\n 3: 객체지향 방법론에서는 UML 표기법을 사용한다.\n 4: 소프트웨어 모델을 사용할 경우 개발될 소프트웨어에 대한 이해도 및 이해 당사자 간의 의사소통 향상에 도움이 된다.\n",
+    (input) => {
+      if (input === "1") {
+        console.log(t);
+        softwareDesign19();
+      }
+      if (input === "2") {
+        console.log(f);
+      }
+      if (input === "3") {
+        console.log(f);
+      }
+      if (input === "4") {
+        console.log(f);
+      } else {
+        softwareDesign18();
+      }
+    }
+  );
+}
+
+function softwareDesign19() {
+  rl.question(
+    "19. 유스케이스 다이어그램(Use Case Diagram)에 관련된 내용으로 틀린 것은?\n 1: 시스템과 상호작용하는 외부시스템은 액터로 파악해서는 안된다.\n 2: 유스케이스는 사용자 측면에서의 요구사항으로, 사용자가 원하는 목표를 달성하기 위해 수행할 내용을 기술한다.\n 3: 시스템 액터는 다른 프로젝트에서 이미 개발되어 사용되고 있으며, 본 시스템과 데이터를 주고받는 등 서로 연동되는 시스템을 말한다.\n 4: 액터가 인식할 수 없는 시스템 내부의 기능을 하나의 유스케이스로 파악해서는 안된다.\n",
+    (input) => {
+      if (input === "1") {
+        console.log(t);
+        softwareDesign20();
+      }
+      if (input === "2") {
+        console.log(f);
+      }
+      if (input === "3") {
+        console.log(f);
+      }
+      if (input === "4") {
+        console.log(f);
+      } else {
+        softwareDesign19();
+      }
+    }
+  );
+}
+
+function softwareDesign20() {
+  rl.question(
+    "20. 소프트웨어 아키텍처 모델 중 MVC(Model-View-Controller)와 관련한 설명으로 틀린 것은?\n 1: MVC 모델은 사용자 인터페이스를 담당하는 계층의 응집도를 높일 수 있고, 여러 개의 다른 UI를 만들어 그 사이에 결합도를 낮출 수 있다.\n 2: 모델(Model)은 뷰(View)와 제어(Controller) 사이에서 전달자 역할을 하며, 뷰마다 모델 서브시스템이 각각 하나씩 연결된다.\n 3: 뷰(View)는 모델(Model)에 있는 데이터를 사용자 인터페이스에 보이는 역할을 담당한다.\n 4: 제어(Controller)는 모델(Model)에 명령을 보냄으로써 모델의 상태를 변경할 수 있다.\n",
+    (input) => {
+      if (input === "1") {
+        console.log(f);
+      }
+      if (input === "2") {
+        console.log(t);
+        askSubject();
+      }
+      if (input === "3") {
+        console.log(f);
+      }
+      if (input === "4") {
+        console.log(f);
+      } else {
+        softwareDesign20();
+      }
+    }
+  );
+}
+
 askSubject();
