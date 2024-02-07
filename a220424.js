@@ -179,15 +179,107 @@ function softwareDesign6() {
       }
       if (input === "2") {
         console.log("오답");
-        softwareDesign7();
       }
       if (input === "3") {
         console.log("오답");
       }
       if (input === "4") {
         console.log("정답");
+        softwareDesign7();
       } else {
         softwareDesign6();
+      }
+    }
+  );
+}
+
+function softwareDesign7() {
+  rl.question(
+    "7. 미들웨어(Middleware)에 대한 설명으로 틀린 것은?\n 1: 여러 운영체제에서 응용 프로그램들 사이에 위치한 소프트웨어이다.\n 2: 미들웨어의 서비스 이용을 위해 사용자가 정보 교환 방법 등의 내부 동작을 쉽게 확인할 수 있어야 한다.\n 3: 소프트웨어 컴포넌트를 연결하기 위한 준비된 인프라 구조를 제공한다.\n 4: 여러 컴포넌트를 1대 1, 1대 다, 다대 다 등 여러 가지 형태로 연결이 가능하다\n",
+    (input) => {
+      if (input === "1") {
+        console.log("오답");
+      }
+      if (input === "2") {
+        console.log("정답");
+        softwareDesign8();
+      }
+      if (input === "3") {
+        console.log("오답");
+      }
+      if (input === "4") {
+        console.log("오답");
+      } else {
+        softwareDesign7();
+      }
+    }
+  );
+}
+
+function softwareDesign8() {
+  rl.question(
+    "8. UI의 설계 지침으로 틀린 것은?\n 1: 이해하기 편하고 쉽게 사용할 수 있는 환경을 제공해야 한다.\n 2: 주요 기능을 메인 화면에 노출하여 조작이 쉽도록 하여야 한다.\n 3: 치명적인 오류에 대한 부정적인 사항은 사용자가 인지할 수 없도록 한다.\n 4: 사용자의 직무, 연령, 성별 등 다양한 계층을 수용하여야 한다.\n",
+    (input) => {
+      if (input === "1") {
+        console.log("오답");
+      }
+      if (input === "2") {
+        console.log("오답");
+      }
+      if (input === "3") {
+        console.log("정답");
+        softwareDesign9();
+      }
+      if (input === "4") {
+        console.log("오답");
+      } else {
+        softwareDesign8();
+      }
+    }
+  );
+}
+
+function softwareDesign9() {
+  rl.question(
+    "9. 객체지향 개념에서 다형성(Polymorphism)과 관련한 설명으로 틀린 것은?\n 1: 다형성은 현재 코드를 변경하지 않고 새로운 클래스를 쉽게 추가할 수 있게 한다.\n 2: 다형성이란 여러 가지 형태를 가지고 있다는 의미로, 여러 형태를 받아들일 수 있는 특징을 말한다.\n 3: 메소드 오버라이딩(Overriding)은 상위 클래스에서 정의한 일반 메소드의 구현을 하위 클래스에서 무시하고 재정의 할 수 있다.\n 4: 메소드 오버로딩(Overloading)의 경우 매개 변수 타입은 동일하지만 메소드명을 다르게 함으로써 구현, 구분할 수 있다.\n",
+    (input) => {
+      if (input === "1") {
+        console.log("오답");
+      }
+      if (input === "2") {
+        console.log("오답");
+      }
+      if (input === "3") {
+        console.log("오답");
+      }
+      if (input === "4") {
+        console.log("정답");
+        softwareDesign10();
+      } else {
+        softwareDesign9();
+      }
+    }
+  );
+}
+
+function softwareDesign10() {
+  rl.question(
+    "10. 소프트웨어 개발 영역을 결정하는 요소 중 다음 사항과 관계있는 것은?\n - 소프트웨어에 의해 간접적으로 제어되는 장치와 소프트웨어를 실행하는 하드웨어\n - 기존의 소프트웨어와 새로운 소프트웨어를 연결하는 소프트웨어\n - 순서적 연산에 의해 소프트웨어를 실행하는 절차\n 1: 기능(Function)\n 2: 성능(Performance)\n 3: 제약 조건(Constraint)\n 4: 인터페이스(Interface)\n",
+    (input) => {
+      if (input === "1") {
+        console.log("오답");
+      }
+      if (input === "2") {
+        console.log("오답");
+      }
+      if (input === "3") {
+        console.log("오답");
+      }
+      if (input === "4") {
+        console.log("정답");
+        softwareDesign11();
+      } else {
+        softwareDesign10();
       }
     }
   );
