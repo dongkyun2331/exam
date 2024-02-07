@@ -5,6 +5,9 @@ const rl = readline.createInterface({
   output: process.stdout,
 });
 
+const t = "정답";
+const f = "오답";
+
 function askSubject() {
   rl.question("1: 소프트웨어 설계\n", (input) => {
     if (input === "1") {
@@ -20,26 +23,26 @@ function softwareDesign1() {
     "1. UML 다이어그램 중 순차 다이어그램에 대한 설명으로 틀린 것은?\n 1: 객체 간의 동적 상호작용을 시간 개념을 중심으로 모델링 하는 것이다.\n 2: 주로 시스템의 정적 측면을 모델링하기 위해 사용한다.\n 3: 일반적으로 다이어그램의 수직 방향이 시간의 흐름을 나타낸다.\n 4: 회귀 메시지(Self-Message), 제어블록(Statement block) 등으로 구성된다.\n",
     (input) => {
       if (input === "1") {
-        console.log("오답");
+        console.log(f);
         console.log(
           "순차 다이어그래은 행위 다어어그램이므로 동적이고, 순차적인 표현을 위한 다이어그램이다,"
         );
       }
       if (input === "2") {
-        console.log("정답");
+        console.log(t);
         console.log(
           "순차 다이어그래은 행위 다어어그램이므로 동적이고, 순차적인 표현을 위한 다이어그램이다,"
         );
         softwareDesign2();
       }
       if (input === "3") {
-        console.log("오답");
+        console.log(f);
         console.log(
           "순차 다이어그래은 행위 다어어그램이므로 동적이고, 순차적인 표현을 위한 다이어그램이다,"
         );
       }
       if (input === "4") {
-        console.log("오답");
+        console.log(f);
         console.log(
           "순차 다이어그래은 행위 다어어그램이므로 동적이고, 순차적인 표현을 위한 다이어그램이다,"
         );
@@ -280,6 +283,29 @@ function softwareDesign10() {
         softwareDesign11();
       } else {
         softwareDesign10();
+      }
+    }
+  );
+}
+
+function softwareDesign11() {
+  rl.question(
+    "11. 객체에 대한 설명으로 틀린 것은?\n 1: 객체는 상태, 동작, 고유 식별자를 가진 모든 것이라 할 수 있다.\n 2: 객체는 공통 속성을 공유하는 클래스들의 집합이다.\n 3: 객체는 필요한 자료 구조와 이에 수행되는 함수들을 가진 하나의 독립된 존재이다.\n 4: 객체의 상태는 속성값에 의해 정의된다.\n",
+    (input) => {
+      if (input === "1") {
+        console.log(f);
+      }
+      if (input === "2") {
+        console.log(t);
+        softwareDesign12();
+      }
+      if (input === "3") {
+        console.log(f);
+      }
+      if (input === "4") {
+        console.log(f);
+      } else {
+        softwareDesign11();
       }
     }
   );
