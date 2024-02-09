@@ -191,15 +191,19 @@ function softwareDesign6() {
     (input) => {
       if (input === "1") {
         console.log("오답");
+        console.log("1,2,3 uml다이어그램 4 정보공학방법론");
       }
       if (input === "2") {
         console.log("오답");
+        console.log("1,2,3 uml다이어그램 4 정보공학방법론");
       }
       if (input === "3") {
         console.log("오답");
+        console.log("1,2,3 uml다이어그램 4 정보공학방법론");
       }
       if (input === "4") {
         console.log("정답");
+        console.log("1,2,3 uml다이어그램 4 정보공학방법론");
         softwareDesign7();
       } else {
         softwareDesign6();
